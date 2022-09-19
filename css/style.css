@@ -1,7 +1,7 @@
 .header{
 width: auto; 
 height: 120px;
-background-color:#2f3847
+background-color:#2f3847;
 }
 .logo{
 margin-left: 50px;
@@ -38,4 +38,10 @@ text-decoration: none;
 color:white;
 padding-top: 20px;
 padding-right: 25px;
+}
+.example{
+background-color: #52bac5;
+   width: auto;
+height: 100px;
+margin-top: 0px;
 }
