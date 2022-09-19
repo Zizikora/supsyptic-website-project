@@ -43,5 +43,12 @@ padding-right: 25px;
 background-color: #52bac5;
    width: auto;
 height: 100px;
-margin-top: 0px;
+padding-top:-20px;
+color: #fff;
+}
+
+.eg{
+ color: #fff;
+ padding-left:10px;
+ padding-top:20px;   
 }
