@@ -1,3 +1,7 @@
+.container{
+display: block;
+height: 500px;
+}
 .header{
 width: auto; 
 height: 120px;
@@ -6,6 +10,7 @@ background-color:#2f3847;
 .logo{
 margin-left: 50px;
 margin-top: 40px;
+height: 50px;
 }
 .row{
     width: 100%;
@@ -42,13 +47,17 @@ padding-right: 25px;
 .example{
 background-color: #52bac5;
    width: auto;
-height: 100px;
-padding-top:-20px;
-color: #fff;
+height: 60px;
+margin-top: -40px;
+color: rgb(49, 49, 49);
 }
 
 .eg{
- color: #fff;
- padding-left:10px;
+ color: rgb(59, 59, 59);
+ padding-left:60px;
  padding-top:20px;   
+ font-variant: small-caps;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+ font-weight: 100;
 }
