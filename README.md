@@ -1,1 +1,1 @@
-# supsyptic-website-project
+# supsystic-website-project
