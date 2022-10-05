@@ -84,3 +84,16 @@ font-weight: 100;
 .code{
   color: red;
 }
+
+.datalink{
+    color: blue;
+    text-decoration: none;
+}
+
+table th{
+ background-color:#52b9c6;   
+}
+
+.cell{
+    background-color: #eafbfc;
+}
