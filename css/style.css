@@ -109,3 +109,29 @@ table th{
     width: 25%;
     color: white;
   }
+
+  .footer img{
+    height: 35px;
+    width: 35px;
+    padding-right: 10px;
+  }
+
+  .footer p{
+    font-size: larger;
+  }
+
+  .fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+  }
+
+  .Copyright{
+  font-size: 12px;
+  
+  }
+  
