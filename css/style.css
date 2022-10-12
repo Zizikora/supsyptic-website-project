@@ -80,3 +80,59 @@ font-weight: 100;
 .order{
  font-size: 24px;
 }
+.code{
+    color: red;
+}
+.datalink{
+    color: blue;
+    text-decoration: none;
+    }
+    table th{
+        background-color: #52b9c6;
+    }
+    .cell{
+        background-color: #eafbfc;
+    }
+    .footer{
+        height: 250px;
+        width:auto;
+        background-color: rgb(33, 33, 33);
+    }
+    .column {
+        float: left;
+        width: 25%;
+        color: rgb(255, 255, 255);
+        padding-top: 20px;
+}
+.footer img{
+    width: 30px
+    height: 30px
+    vertical-align: bottom;
+    clear: left;
+    padding-right: 15px
+}
+
+.footer p{
+    font-size: 24px;
+    display:inline-block;
+
+}
+.fa{
+  padding: 10px;  
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color:#fff;
+  font-size: 30px;
+}
+.data-table{
+padding-top: 60px;
+}
+
+
+
+
+
+
