@@ -132,6 +132,11 @@ table th{
 
   .Copyright{
   font-size: 12px;
-  
   }
+
   
+.datatable{
+    padding-top: 60px;
+    font-size: small;
+    color: white;
+}
