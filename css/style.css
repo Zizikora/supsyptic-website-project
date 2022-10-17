@@ -136,3 +136,58 @@ padding-top: 60px;
 
 
 
+
+.code{
+  color: red;
+}
+
+.datalink{
+    color: blue;
+    text-decoration: none;
+}
+
+table th{
+ background-color:#52b9c6;   
+}
+
+.cell{
+    background-color: #eafbfc;
+}
+
+.footer{
+    height: 250px;
+    width: auto;
+    background-color: rgb(22, 22, 22);
+}
+
+.column {
+    float: left;
+    width: 25%;
+    color: white;
+  }
+
+  .footer img{
+    height: 35px;
+    width: 35px;
+    padding-right: 10px;
+  }
+
+  .footer p{
+    font-size: larger;
+  }
+
+  .fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+  }
+
+  .Copyright{
+  font-size: 12px;
+  
+  }
+  
