@@ -3,47 +3,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Addmisson form</title>
 </head>
 <body>
  <h1><p>Addmisson Details</p></h1>   
  <p>All candidants seeking addmisson should fill in the registration form below</p>
-<div>
-    <form>
- </div>
+<div class="container">
+    <form action="/action.php">
  <h2>Registration Form</h2>
  <p>Fill in the form to register</p>
  <!-- label and input for username -->
+ 
+
  <label for="firstname"><b>First Name</b></label>
+    
 <input type="firstname" placeholder="First name" name="firstname" id="firstname" required />
+        
+
+        <br>
+         <br>   
 <label for="middlename"><b>Middle Name</b></label>
+          
+          
 <input type="middlename" placeholder="Middle name" name="middlename" id="middlename" required />
+          <br>
+          <br>
+        
 <label for="lastname"><b>Last Name</b></label>
+          
+        
 <input type="lastname" placeholder="Last name" name="lastname" id="lastname" required />
+          <br>
+          <br>
+          
 <label for="username"><b>Username</b></label>
+        
+          
  <input type="text" placeholder="Enter username" name="username" id="username" required />
+          <br>
+          <br>
 <label for="email"><b>Email</b></label>
+          
+          
 <input type="text" placeholder="Enter Email" name="Email" id="Email" required />
-<br>
-<br>
+ <br>
+ <br>         
+          
 <label for="password"><b>Password</b></label>
+          
+        
 <input type="password" placeholder="Enter Password" name="Password" id="Password" required />
+        <br>
+        <br>
+        
 <label for="Re-enter Password"><b>Re-Enter Password</b></label>
-<input type="Re-enter password" placeholder="Re-Enter Password" name=" Re-Enter Password" id="Re-Enter Password" required />
+
+          
+<input type="Re-enter password" placeholder="Re-Enter Password" name=" Re-Enter Password" id="Re-Enter Password" required />   
+ <br>
+ <br>
+
+ <div class="row">
+    <div class="col-25">
 <label for="studymode"> Study Mode</label>
+    </div>
+    <div class="col-75">
 <select name="studymode" id="studymode">
   <option value="parttime">Part time</option>
     <option value="fulltime">Full time</option>
     <option value="online">Online</option>
 </select>
+    </div>
+    <div class="col-25">
 <label for="entrymode">Entry Mode</label>
+    </div>
+    <div class="col-75">
 <input type="checkbox" name="Directentry" id="directentry" value="directentry">
 <label for="directentry">Direct Entry</label>
+<br>
 <input type="checkbox" name="prelimanary" id="prelimanary" value="prelimanary">
 <label for="prelimanary">Prelimanary</label>
+<br>
 <input type="checkbox" name="Jamb" id="jamb" value="jamb">
 <label for="Jamb">Jamb</label>
-<input type="submit" name="Submit" id="submit" value="submit">
+    </div>
+    <div class="row">
+<input type="submit" name="Submit" id="submit" value="Submit">
+    </div>
 </div>  
 </form> 
 </div>   
