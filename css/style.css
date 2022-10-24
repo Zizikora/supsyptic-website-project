@@ -50,20 +50,21 @@ height: 50px;
 margin-top: -40px;
 }
 .eg{
-    color: rgb(76, 76, 76);
+    color: rgb(55, 53, 53);
     padding-left: 60px;
-    padding-top: 10px;
+    padding-top: 20px;
 font-variant: small-caps;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 font-weight: 100;
 }
 
-.datatable{
- font-family: Arial, Helvetica, sans-serif;
- font-size: 24px;
- margin-left:35px;
- color: #4b4949;
+.data{
+padding-left: 50px;
+padding-top: 20px;
+font-size: 24px;
+font-weight: bold;
+
 }
 .alltables{
  font-size: 20px;
@@ -236,3 +237,44 @@ table th{
         clear: both;
       }
       
+
+      * {
+        box-sizing: border-box;
+      }
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+      }
+
+      table, th, td {
+        border: solid 1px black;
+        width: 300px;
+        padding: 10px;
+      }
