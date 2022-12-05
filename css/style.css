@@ -1,0 +1,281 @@
+.conatiner{
+    display: block;
+    height: 500px;
+}
+.header{
+width: auto; 
+height: 120px;
+background-color:#2f3847;
+}
+.logo{
+margin-left: 50px;
+margin-top: 40px;
+height: 50px;
+}
+.row{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.name{
+    color: #fff;
+    margin: left 80px;
+    margin-top: 40px;
+}
+.block{
+width: 150px;
+float: left;
+}
+nav,ul{
+margin: 0px; 
+overflow: hidden;
+padding: 0px;
+}
+ul.topnav li{
+    list-style-type: none;
+    float: left;
+    color: #fff;
+margin-top: 30px;
+}
+ul.topnav li a{
+display: block;
+text-decoration: none;
+color:white;
+padding-top: 20px;
+padding-right: 25px;
+}
+.example{
+background-color: #52bac5;
+   width: auto;
+height: 50px;
+margin-top: -40px;
+}
+.eg{
+    color: rgb(55, 53, 53);
+    padding-left: 60px;
+    padding-top: 20px;
+font-variant: small-caps;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 100;
+}
+
+.data{
+padding-left: 50px;
+padding-top: 20px;
+font-size: 24px;
+font-weight: bold;
+
+}
+.alltables{
+ font-size: 20px;
+ color: #4b4949;
+ margin-left: 40px;
+ font-family: Arial, Helvetica, sans-serif;   
+}
+.tabledata, ch, td{
+  border: 1px soild black;
+   margin-left: 40px;
+}
+
+.order{
+ font-size: 24px;
+}
+.code{
+    color: red;
+}
+.datalink{
+    color: blue;
+    text-decoration: none;
+    }
+    table th{
+        background-color: #52b9c6;
+    }
+    .cell{
+        background-color: #eafbfc;
+    }
+    .footer{
+        height: 250px;
+        width:auto;
+        background-color: rgb(33, 33, 33);
+    }
+    .column {
+        float: left;
+        width: 25%;
+        color: rgb(255, 255, 255);
+        padding-top: 20px;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+    clear:left;
+    padding-right:15px;
+}
+
+.footer p{
+    font-size: 24px;
+    display:inline-block;
+
+}
+.fa{
+  padding: 10px;  
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color:#fff;
+  font-size: 30px;
+}
+.data-table{
+padding-top: 60px;
+}
+
+.code{
+color: red;
+}
+
+.datalink{
+    color: blue;
+    text-decoration: none;
+}
+
+table th{
+ background-color:#52b9c6;   
+}
+
+.cell{
+    background-color: #eafbfc;
+}
+
+.footer{
+    height: 250px;
+    width: auto;
+    background-color: rgb(22, 22, 22);
+}
+
+.column {
+    float: left;
+    width: 25%;
+    color: white;
+  }
+
+  .footer img{
+    height: 35px;
+    width: 35px;
+    padding-right: 10px;
+  }
+
+  .footer p{
+    font-size: larger;
+  }
+
+  .fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+  }
+
+  .Copyright{
+  font-size: 12px;
+  }
+
+  
+.datatable{
+    padding-top: 60px;
+    font-size: small;
+    color: white;
+}
+
+    * {
+        box-sizing: border-box;
+      }
+
+
+      input[type=text], select, checkbox {
+        width: 50%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+
+      label{
+        padding: 12px 12px 12px 0px;
+        display: inline-block;
+      }
+
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+      }
+
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+
+      * {
+        box-sizing: border-box;
+      }
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+      }
+
+      table, th, td {
+        border: solid 1px black;
+        width: 300px;
+        padding: 10px;
+      }
